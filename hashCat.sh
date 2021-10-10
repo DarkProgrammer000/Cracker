@@ -3,7 +3,7 @@
 # Configuracao do tipo de Hash a ser decodificado
 # 0     -> MD5
 # 22000 -> WPA-PBKDF2-PMKID+EAPOL 
-hashType=22000			    # USER CHANGE
+hashType=0			    # USER CHANGE
 
 # Apresentacao
 apresentacao()
@@ -550,5 +550,6 @@ imprimirSenhas()
 	# Limpeza de variavel
 	opc=""
 }
+
 # Inicio
 Programa
